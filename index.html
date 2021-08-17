@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2 class="text-center text-3xl text-purple-900 mt-6 font-bold">Calculate here...</h2>
+    <div class="mt-8 rounded-md border-4 w-1/3 mx-auto p-4">
+        <div class="flex justify-center gap-x-2">
+            <p id="screen" class="bg-gray-200 h-20 flex items-center justify-end rounded-md border-2 border-gray-400 w-full font-semibold text-5xl"></p>
+        </div>
+        <div class="mt-2 flex justify-end"><button id="clear" class="bg-red-300 px-6 rounded-md border-2 border-red-400 font-semibold text-xl">Clear</button></div>
+        <div class="flex justify-center gap-x-2 mt-2">
+            <div><button id="seven" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">7</button></div>
+            <div><button id="eight" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">8</button></div>
+            <div><button id="nine" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">9</button></div>
+            <div><button id="plus" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">+</button></div>
+        </div>
+        <div class="flex justify-center gap-x-2 mt-4">
+            <div><button id="four" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">4</button></div>
+            <div><button id="five" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">5</button></div>
+            <div><button id="six" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">6</button></div>
+            <div><button id="minus" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">-</button></div>
+        </div>
+        <div class="flex justify-center gap-x-2 mt-4">
+            <div><button id="one" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">1</button></div>
+            <div><button id="two" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">2</button></div>
+            <div><button id="three" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">3</button></div>
+            <div><button id="mul" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">X</button></div>
+        </div>
+        <div class="flex justify-center gap-x-2 mt-4">
+            <div><button id="point" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">.</button></div>
+            <div><button id="zero" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">0</button></div>
+            <div><button id="equal" class="bg-green-500 px-10 py-6 rounded-md border-2 border-green-600 font-semibold text-3xl">=</button></div>
+            <div><button id="div" class="bg-green-300 px-10 py-6 rounded-md border-2 border-green-400 font-semibold text-3xl">/</button></div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
