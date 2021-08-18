@@ -10,7 +10,7 @@ for (const button of buttons) {
         else if (buttonText == 'Clear') {
             screen.value = '';
         }
-        else if (buttonText == '<-') {
+        else if (buttonText == '<') {
             screen.value = screen.value.slice(0, -1);
         }
         else if (buttonText == '=') {
